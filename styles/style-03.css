@@ -1,0 +1,205 @@
+/* =============================
+   CUSTOM TOYZILLA
+   ============================= */
+html {
+  -webkit-tap-highlight-color: transparent;
+  font-size: 18px;
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 21px;
+  }
+}
+
+body {
+  background: #fff;
+  color: #333435;
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.text-huge {
+  font-size: 5rem;
+}
+.text-large {
+  font-size: 2.5rem;
+}
+.text-small {
+  font-size: .6rem;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+.bg-white-transparent {
+  background-color: rgba(255, 255, 255, .9);
+}
+.bg-white-transparent-2 {
+  background-color: rgba(255, 255, 255, .5);
+}
+
+/* =============================
+   BOOTSTRAP OVERRIDES
+   ============================= */
+.btn-primary {
+  background-color: rgb(238, 129, 130);
+  border-color: rgb(238, 129, 130);
+}
+.btn-primary:hover {
+  background-color: #eb6b6c;
+  border-color: #eb6b6c;
+}
+@media (min-width: 768px) {
+  .btn-primary {
+    background-color: lightcoral;
+    border-color: lightcoral;
+  }
+}
+
+.badge-info {
+    background-color: rgb(92, 201, 182);
+}
+
+/* =============================
+   HEAD
+   ============================= */
+.navbar-brand {
+  font-size: 32px;
+  font-family: "Baloo","Helvetica Neue",Helvetica,Arial,sans-serif;;
+  line-height: 1;
+}
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 40px;
+  }
+}
+
+sub#beta {
+  color: rgb(92, 201, 182);
+  font-size: .5em;
+}
+
+a#changeTo {
+  color: rgb(92, 201, 182);
+  line-height: 1;
+  text-decoration: none;
+  margin-top: -.4em;
+}
+a#changeTo > span:first-child {
+  font-size: .5em;
+  text-decoration: none;
+}
+a#changeTo > span {
+  text-decoration: underline;
+}
+
+/* =============================
+   HOME PAGE
+   ============================= */
+#heroSection {
+  background-position: center;
+  background-image: url(../images/mobile-background-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  #heroSection {
+    background-image: none;
+  }
+  #heroSection .row {
+    background-position: center;
+    background-image: url(../images/desktop-background-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+#howItWorksSection img {
+  width: 50%;
+}
+.col-highlighted {
+  background-color: rgba(92, 201, 182, .2);
+}
+.col-highlighted-secondary-left {
+  background-color: rgba(230, 230, 230, .5);
+}
+.col-highlighted-secondary-right {
+  background-color: rgba(230, 230, 230, .5);
+}
+@media (min-width: 768px) {
+  .col-highlighted {
+    border-radius: .25rem;
+  }
+  .col-highlighted-secondary-left {
+    border-radius: .25rem 0 0 .25rem;
+    margin-top: 1rem;
+  }
+  .col-highlighted-secondary-right {
+    border-radius: 0 .25rem .25rem 0;
+    margin-top: 1rem;
+  }
+}
+
+#priceSection .row, #sanitationProcessSection .row {
+  background-color: rgba(92, 201, 182, .2);
+}
+
+#bagsSection {
+  background-position: center;
+  background-image: url(../images/toy-table-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  #bagsSection {
+    background-image: none;
+  }
+  #bagsSection .row {
+    background-position: center;
+    background-image: url(../images/toy-table-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-fixed-height {
+    height: 285px;
+  }
+  .card-fixed-height:lang(fr) {
+    height: 375px;
+  }
+}
+
+#teamSection {
+    min-height: 500px;
+    background-image: url(../images/funny-01.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+/* =============================
+   FOOT
+   ============================= */
+footer {
+  background-color: rgb(92, 201, 182);
+}
+
+/* =============================
+   EXTRA
+   ============================= */
+.modal-body-image {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('../images/toy-table-01.jpg');
+
+  border-top: 1px solid rgba(0,0,0,.2);
+  border-bottom: 1px solid rgba(0,0,0,.2);
+
+  min-height: 200px;
+  width: 100%;
+
+  clear: both;
+  display: block;
+}
