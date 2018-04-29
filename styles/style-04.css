@@ -174,9 +174,14 @@ a#changeTo > span {
 
 #teamSection {
     min-height: 500px;
-    background-image: url(../images/funny-01.jpg);
+    background-image: url(../images/hannah-rodrigo-320734-unsplash.jpg);
     background-position: top;
     background-size: cover;
+}
+#teamSection + div {
+  margin: -1.75rem 0 0;
+  padding: 0 .5rem;
+  background-color: rgba(255, 255, 255, .6);
 }
 
 /* =============================
